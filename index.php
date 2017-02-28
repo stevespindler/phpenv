@@ -1,5 +1,4 @@
 <?php
-
-echo ("Hello phpenv world");
+echo "Hello ".(isset($_GET['name']) ? $_GET['name'] : "World");
 
 ?>
